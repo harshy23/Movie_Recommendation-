@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
-similarity  = pickle.load(open('similarity.pkl',"rb"))
+similarity  = pickle.load(open('similarity.pkl.gz',"rb"))
 movie_dict = pickle.load(open('movie_dict.pkl','rb'))
 movies =pd.DataFrame(movie_dict)
 def fetch_poster(movie_id):
