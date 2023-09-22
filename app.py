@@ -34,7 +34,7 @@ selected_movie_name= st.selectbox (
 'immersive world of movie recommendations, where '
 'the magic of storytelling comes alive. '
 ' let us be your guide through the vast '
-'universe of film. Lights, camera, action...\n Write a '
+'universe of film. Lights, camera, action... \n Write a '
 'movie to know similar movies like that movie',movies['title'].values)
 
 if st.button('Recommend'):
