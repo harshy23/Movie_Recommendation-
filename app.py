@@ -31,7 +31,7 @@ st.title('Movie Recommender System')
 
 selected_movie_name= st.selectbox (
 'Welcome to the reel deal!We present to you an '
-'immersive world of movie recommendations,movies['title'].values)
+'immersive world of movie recommendations',movies['title'].values)
 
 if st.button('Recommend'):
     names,poster = recommend(selected_movie_name)
